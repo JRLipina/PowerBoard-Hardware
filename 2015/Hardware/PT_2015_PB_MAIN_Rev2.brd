@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.0.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2139,7 +2139,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="43.307" y="40.005" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="C40" library="resistor" package="C0805" value="1nF" x="38.735" y="32.385" rot="R180"/>
-<element name="C41" library="resistor" package="C1206" value=".1µF" x="42.545" y="97.155" rot="R90"/>
+<element name="C41" library="resistor" package="C1206" value=".1µF" x="42.545" y="97.155" rot="R90">
+<attribute name="DIGIKEY_PN" value="399-1249-1-ND" x="42.545" y="97.155" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="U$20" library="MRDT-2015-PowerBoard" package="SOIC8_ACS711" value="ACS714LLCTR-50A-T" x="40.64" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.307" y="106.045" size="1.27" layer="25" rot="R270"/>
 </element>
